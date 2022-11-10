@@ -1,0 +1,127 @@
+* {box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+    background: rgb(12, 8, 8);
+}
+.container{
+    margin: 0px auto;
+    max-width: 900px;
+    display: flex;
+}
+
+.side-content{
+    position: relative;
+    background: url(greenleaf.jpg);
+    background-size: cover;
+    color:#ccc;
+    width: 325px;
+    height: 633px;
+    margin: 0px auto;
+}
+.logo-content{
+    position: absolute;
+    width: 100%;
+    margin-top: 90px;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex ;
+    justify-content: center;
+    padding: 10px;
+}
+.logo-content .logo-header{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.main-content{
+    background: rgb(252, 242, 242);
+    width: 575px;
+    height: 633px;
+}
+
+.info{
+    padding: 25px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+}   
+
+h3{
+    margin-left: 25px;
+}
+.signup-form{
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 25px;
+}
+
+form{
+    margin-top: -20px;
+}
+
+.signup-form .title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signup-form form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box{
+    margin: 20px 0px 10px 0px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.user-details .input-box input{
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+
+form .button{
+    height: 40px;
+    margin: 15px 0px;   
+}
+
+form .button input{
+    height: 100%;
+    background: rgb(16, 61, 16);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 0px 30px;
+}
+
+form .button input:hover{
+    background:#fff;
+    color:rgb(16, 61, 16) ;
+    border: 1px solid rgb(16, 61, 16);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(16, 61, 16);
+    cursor: pointer;
+}
